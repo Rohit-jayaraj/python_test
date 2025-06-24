@@ -17,7 +17,8 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'pytest --junitxml=results.xml'
+                bat '''"C:\\Users\\rohit\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m pytest --junitxml=results.xml'''
+
             }
         }
 
